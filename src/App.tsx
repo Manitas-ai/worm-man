@@ -10,6 +10,7 @@ import { Comics } from './components/Comics'
 import { Join } from './components/Join'
 import { Footer } from './components/Footer'
 import { ClickBurst } from './components/ClickBurst'
+import { VsSnakeMan } from './components/VsSnakeMan'
 import { useScrollReveal } from './hooks/useScrollReveal'
 
 function BackToTop() {
@@ -47,6 +48,7 @@ export default function App() {
       <StatsBanner />
       <Enemies />
       <Comics />
+      <VsSnakeMan />
       <Join />
       <Footer />
     </>
